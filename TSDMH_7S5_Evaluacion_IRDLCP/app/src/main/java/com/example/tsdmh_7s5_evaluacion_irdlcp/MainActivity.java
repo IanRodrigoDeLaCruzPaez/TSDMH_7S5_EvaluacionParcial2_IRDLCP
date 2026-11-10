@@ -9,7 +9,7 @@ import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ActivityMain extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     private LinearLayout layoutSpinnerContainer;
     private Spinner spinnerCategorias;

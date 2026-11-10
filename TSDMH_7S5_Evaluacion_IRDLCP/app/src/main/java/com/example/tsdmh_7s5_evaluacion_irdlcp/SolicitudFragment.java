@@ -73,8 +73,8 @@ public class SolicitudFragment extends Fragment {
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
 
-            if (getActivity() instanceof ActivityMain) {
-                ((ActivityMain) getActivity()).mostrarFaseResultados();
+            if (getActivity() instanceof MainActivity) {
+                ((MainActivity) getActivity()).mostrarFaseResultados();
             }
         }
     }
